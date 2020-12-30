@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login/SignUp</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Register</h1>
+        <form>
+            <div class="text_field">
+                <input id="fullName" type="text" placeholder="FullName" required>
+            </div>
+            <div class="text_field">
+                <input id="userName" type="text" placeholder="Username" required>
+            </div>
+            <div class="text_field">
+                <input id="password" type="password" placeholder="Password" required>
+            </div>
+            <input type="submit" onclick="register()" value="Register">
+            <div class="signup_link">
+             Already a member? <a href="index.html">Login</a>
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
